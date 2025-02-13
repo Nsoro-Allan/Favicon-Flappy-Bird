@@ -64,7 +64,7 @@ function checkCollision() {
         alert(`Game Over! Your score is ${score}`);
         score = 0;
         scoreDisplay.textContent = score;
-        document.title = 'Flappy Bird';
+        document.title = 'Favicon Flappy Bird';
         bird.y = 8;
         pipe.x = 16;
         gameInterval = setInterval(gameLoop, 100);
